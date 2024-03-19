@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.gugulethugillz.zip_metrics_tool;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-class DemoApplicationTests {
+class ZipMetricsToolApplicationTest {
 
 	@Test
 	void contextLoads() {
