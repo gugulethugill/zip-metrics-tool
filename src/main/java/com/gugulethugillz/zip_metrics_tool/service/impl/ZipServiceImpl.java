@@ -99,10 +99,10 @@ public class ZipServiceImpl implements ZipService{
         summaryRow.createCell(1).setCellValue(metrics.size());
 
         //Write the workbook to a temporary file
-//        File tempFile = File.createTempFile("Metrics", ".xlsx");
-//        try (FileOutputStream fileOut = new FileOutputStream(tempFile)) {
-//            workbook.write(fileOut);
-//        }
+        File tempFile = File.createTempFile("Metrics", ".xlsx");
+        try (FileOutputStream fileOut = new FileOutputStream(tempFile)) {
+            workbook.write(fileOut);
+        }
 
         // Write to Excel file
         try (FileOutputStream outputStream = new FileOutputStream("Metrics.xlsx")) {

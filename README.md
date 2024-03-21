@@ -1,3 +1,7 @@
+
+### RESULTS
+The Excel File is being downloaded to the working directory of the project.
+
 ### Java Spring template project
 
 This project is based on a GitLab [Project Template](https://docs.gitlab.com/ee/gitlab-basics/create-project.html).
