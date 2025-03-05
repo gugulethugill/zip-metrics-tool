@@ -41,9 +41,8 @@ public class ZipControllerTest {
     }
 
     @Test
-    public void givenTheBidPath_whenGetRequest_thenShouldReturnPageContainingBids() throws Exception {
+    public void givenTheZipFile_ShouldZipMetrics() throws Exception {
         mockMvc.perform(post("/api/v1/zip/get-metrics"))
-                //.andExpect(view().name("bids"))
                 .andExpect(status().isCreated());
     }
 }
